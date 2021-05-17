@@ -1,59 +1,30 @@
-[![Build Status](https://travis-ci.org/keon/3-min-pytorch.svg?branch=master)](https://travis-ci.org/keon/3-min-pytorch)
-
-# 펭귄브로의 3분 딥러닝, 파이토치맛
+# Self Study with 펭귄브로의 3분 딥러닝, 파이토치맛
 [PyTorch 코드로 맛보는 CNN, GAN, RNN, DQN, Autoencoder, ResNet, Seq2Seq, Adversarial Attack](https://book.naver.com/bookdb/book_detail.nhn?bid=15559613)
 
-> 저자: [김건우](https://github.com/keon), [염상준](https://github.com/ysangj)
-
-파이토치 코드로 맛보는 딥러닝 핵심 개념! 
-
-이 책은 파이토치로 인공지능을 구현하는 방법을 알려줍니다. 인공지능 입문자를 위한 기초 지식과 최신 인공지능 구현 방법인 인공신경망 기술을 사례를 통해 알아봅니다. 지도학습 방식의 ANN, DNN, CNN, RNN을 비롯해, 비지도학습 방식의 AE와 GAN 그리고 강화학습 DQN을 직접 구현합니다. 딥러닝의 약점을 이용해서 해킹하는 방법을 배우는 등 각 장에서 소개한 신경망으로 재미있는 응용 예제를 다룹니다.
-
-<a href="http://www.yes24.com/Product/Goods/80218706">
-<p align="center">
-<img src="http://www.hanbit.co.kr/data/books/B7193109877_l.jpg" alt="3분 딥러닝 파이토치맛" title="3분 딥러닝 파이토치맛" width="350"/>
-</p>
-</a>
-
-- [네이버책](https://book.naver.com/bookdb/book_detail.nhn?bid=15559613), 
-[yes24](http://www.yes24.com/Product/Goods/80218706),
-[교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791162242278&fbclid=IwAR1RuBmj9OKXmqi291yddZ53yVkPl3bkOqJKgGbu0tKDlq8MijjN7xiUAvs#N),
-[알라딘](https://www.aladin.co.kr/shop/wproduct.aspx?ISBN=K002636987),
-[영풍문고](http://www.ypbooks.co.kr/book.yp?bookcd=100983591)
-[인터파크도서](http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.prdNo=318434586),
-[반디앤루니스](http://www.bandinlunis.com/front/product/detailProduct.do?prodId=4284510&compId=101) 등에서 만나볼 수 있습니다. 
-
-
-## 요구사항
-
-아래 파이토치와 파이썬 버전을 지원합니다.
-
-* PyTorch 1.0 이상
-* Python 3.6.1 이상
-
+Blog : https://yjs-program.tistory.com/
 
 ## 구성
 
 이 책은 딥러닝과 파이토치를 처음 접하는 사람이 쉽게 이론을 익히고 구현할 수 있도록 구성돼 있습니다. 딥러닝은 언어부터 이미지까지 넓은 분야에 사용되고 있어서 응용하는 분야에 따라 그 형태가 다양합니다. 따라서 최대한 다양한 학습 방식과 딥러닝 모델을 구현할 수 있도록 예제를 준비했습니다.
 
-### [1장. 딥러닝과 파이토치](./01-딥러닝과_파이토치)
+### [1장. 딥러닝과 파이토치](https://yjs-program.tistory.com/125?category=951846) / [코드](./01-딥러닝과_파이토치)
 
 딥러닝의 기본 지식을 쌓고, 여러 기계학습 방식에 대해 배웁니다. 파이토치가 무엇이고, 왜 필요한지와, 텐서플로와 케라스 같은 라이브러리와 무엇이 다른지에 대해 알아봅니다.
 
-### [2장. 파이토치 시작하기](./02-파이토치_시작하기)
+### [2장. 파이토치 시작하기](https://yjs-program.tistory.com/124?category=804884) / [코드](./02-파이토치_시작하기)
 
-파이토치 환경 설정과 사용법을 익혀봅니다. 파이토치 외에도 책을 진행하면서 필요한 주변 도구를 설치합니다.
+파이토치 환경 설정과 사용법을 익혀봅니다. 파이토치 외에도 책을 진행하면서 필요한 주변 도구를 설치합니다. Self study과정에서는 Colab을 기준으로 포스팅한다.
 
-### [3장. 파이토치로 구현하는 ANN](./03-파이토치로_구현하는_ANN)
+### [3장. 파이토치로 구현하는 ANN](https://yjs-program.tistory.com/126?category=951846) / [코드](./03-파이토치로_구현하는_ANN)
 
 파이토치를 이용하여 가장 기본적인 인공 신경망을 구현하고 모델을 저장, 재사용하는 방법까지 배웁니다.
 
-### [4장. 패션 아이템을 구분하는 DNN](./04-패션_아이템을_구분하는_DNN)
+### [4장. 패션 아이템을 구분하는 DNN](https://yjs-program.tistory.com/134?category=951846) / [코드](./04-패션_아이템을_구분하는_DNN)
 
 앞서 배운 인공 신경망을 이용하여 Fashion MNIST 데이터셋 안의 패션 아이템을 구분해봅니다.
 
-### [5장. 이미지 처리능력이 탁월한 CNN](./05-이미지_처리능력이_탁월한_CNN)
-
+### [5장. 이미지 처리능력이 탁월한 CNN](https://yjs-program.tistory.com/139?category=951846) / [코드](./05-이미지_처리능력이_탁월한_CNN)
+### [5-1. VGG 설명 추가](https://yjs-program.tistory.com/151?category=951846)
 영상 인식에 탁월한 성능을 자랑하는 CNN에 대하여 알아봅니다. 여기에 그치지 않고 CNN을 더 쌓아 올려 성능을 올린 ResNet에 대해 알아보고 구현합니다.
 
 ### [6장. 사람의 지도 없이 학습하는 오토인코더](./06-사람의_지도_없이_학습하는_오토인코더)
