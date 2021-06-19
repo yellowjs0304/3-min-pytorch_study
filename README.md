@@ -44,6 +44,7 @@ Blog : https://yjs-program.tistory.com/
 두 모델의 경쟁을 통해 최적화하는 특이한 학습 구조를 가진 GAN에 대해 알아봅니다. GAN은 데이터셋에 존재하지 않는 새로운 이미지를 생성할 수 있습니다. 예제로 Fashion MNIST 데이터셋을 학습하여 새로운 패션 아이템을 만듭니다.
 
 ### [10장. 주어진 환경과 상호작용하며 성장하는 DQN](https://yjs-program.tistory.com/173) / [코드](./10-주어진_환경과_상호작용하며_성장하는_DQN)
+### [10-1. RL(Reinforcemnet Learning) 기초 설명](https://yjs-program.tistory.com/174)
 
 간단한 게임 환경에서 스스로 성장하는 DQN에 대해 알아보고 간단한 게임을 마스터하는 인공지능을 구현해봅니다.
 
